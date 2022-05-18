@@ -1,6 +1,6 @@
  /*special text and title element*/
  .volcano {
-    color:firebrick;
+    color:rgb(255, 0, 0);
     background-color:black;
 }
 
@@ -17,13 +17,13 @@ li {
 }
 li a {
     display: block;
-    color:firebrick;
+    color:rgb(255, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
-    background-color:firebrick;
+    background-color:rgb(255, 0, 0);
     color:black;
 }
 
@@ -33,16 +33,18 @@ body {font-family: sans-serif;}
 .mySlide{vertical-align: middle;}
 
 .slideshow-box {
-    max-width: 900px;
+    max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 /*Slideshow text*/
 .text {
-    color:firebrick;
-    font-size: 15px;
-    padding: 8px 12px;
+    color:rgb(255, 0, 0);
+    font-size: 50px;
+    padding: 20px 40px;
     position: absolute;
     bottom: 8px;
     width: 100%;
