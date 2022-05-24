@@ -1,0 +1,27 @@
+img {
+    float: left;
+    width:300px;
+    height:200px;
+    margin-left:50px;
+}
+
+.top {
+    top: 200px;
+}
+
+.attribute {
+    margin-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color: red; 
+    font-size: 150%;
+    line-height: 2;
+    
+}
+
+h3 {
+    color:red;
+    margin-left: 25px;
+}
+@media only  screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}

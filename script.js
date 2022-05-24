@@ -3,6 +3,15 @@
  headingEl.className = "volcano";
  headingEl.style.textAlign = "center";
 
+ var headingEl = document.querySelector("#headingTwo");
+ headingEl.className = "subtopic";
+ headingEl.style.textAlign = "center";
+
+ var headingEl = document.querySelector("#headingThree");
+ headingEl.className = "subtopic";
+ headingEl.style.textAlign = "center";
+
+
 //Slideshow Java code
 let slideIndex = 0;
 showSlides();
@@ -19,3 +28,4 @@ function showSlides() {
  setTimeout(showSlides, 3000); 
 }
  
+
